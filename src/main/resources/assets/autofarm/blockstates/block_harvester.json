@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": {
+            "model": "autofarm:block_harvester"
+        }
+    }
+}

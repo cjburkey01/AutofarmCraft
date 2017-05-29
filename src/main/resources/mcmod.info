@@ -1,0 +1,17 @@
+[
+{
+  "modid": "autofarm",
+  "name": "AutofarmCraft",
+  "description": "Automatic farming made easy.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://cjburkey.com/",
+  "updateUrl": "",
+  "authorList": ["CJ Burkey"],
+  "credits": "The Forge and FML guys, for making forge.",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": [],
+  "requiredMods": [ "Forge" ]
+}
+]
