@@ -42,7 +42,7 @@ public class ContainerHarvester extends Container {
 		for(int y = 0; y < 3; y ++) {
 			for(int x = 0; x < 9; x ++) {
 				int i = 9 + x + y * 9;
-				addSlotToContainer(new SlotForbidden(playerInventory, i, xOffset + slotSize * x, yOffset + slotSize * y));
+				addSlotToContainer(new Slot(playerInventory, i, xOffset + slotSize * x, yOffset + slotSize * y));
 			}
 		}
 	}
@@ -51,7 +51,7 @@ public class ContainerHarvester extends Container {
 		int xOffset = 8;
 		int yOffset = 142;
 		for(int x = 0; x < 9; x ++) {
-			addSlotToContainer(new SlotForbidden(playerInventory, x, xOffset + slotSize * x, yOffset));
+			addSlotToContainer(new Slot(playerInventory, x, xOffset + slotSize * x, yOffset));
 		}
 	}
 	
@@ -66,9 +66,7 @@ public class ContainerHarvester extends Container {
 					return ItemStack.EMPTY;
 				}
 			} else {
-				if(!mergeItemStack(current, 0, size, false)) {
-					return ItemStack.EMPTY;
-				}
+				return ItemStack.EMPTY;
 			}
 			if(current.getCount() == 0) {
 				slot.putStack(ItemStack.EMPTY);

@@ -9,7 +9,7 @@
   "updateUrl": "",
   "authorList": ["CJ Burkey"],
   "credits": "The Forge and FML guys, for making forge.",
-  "logoFile": "logo.png",
+  "logoFile": "logo128.png",
   "screenshots": [],
   "dependencies": [],
   "requiredMods": [ "Forge" ]
