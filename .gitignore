@@ -20,3 +20,11 @@ build
 # other
 eclipse
 run
+
+*.DS_Store
+.project
+.settings/*
+gradle.properties
+gradle/*
+gradlew
+src.zip
