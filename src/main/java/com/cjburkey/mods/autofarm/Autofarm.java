@@ -11,8 +11,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(name = ModInfo.NAME, modid = ModInfo.MODID, version = ModInfo.VERSION, dependencies = "required-after:forge@[12.30.0.2296,]", useMetadata = false,
-	clientSideOnly = false, serverSideOnly = false, acceptedMinecraftVersions = "[1.11.2]", acceptableRemoteVersions = "[1.0.0,]",
-	acceptableSaveVersions = "[1.0.0,]", certificateFingerprint = "", modLanguage = "java", modLanguageAdapter = "", canBeDeactivated = false, guiFactory = "",
+	clientSideOnly = false, serverSideOnly = false, acceptedMinecraftVersions = "[1.11.2]", acceptableRemoteVersions = "[0.0.1,]",
+	acceptableSaveVersions = "[0.0.1,]", certificateFingerprint = "", modLanguage = "java", modLanguageAdapter = "", canBeDeactivated = false, guiFactory = "",
 	updateJSON = "", customProperties = {  })
 public class Autofarm {
 	
