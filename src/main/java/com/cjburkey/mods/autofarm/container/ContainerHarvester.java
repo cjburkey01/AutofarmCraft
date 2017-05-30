@@ -38,7 +38,7 @@ public class ContainerHarvester extends Container {
 	
 	private void initPlayerSlots() {
 		int xOffset = 8;
-		int yOffset = 83;
+		int yOffset = 84;
 		for(int y = 0; y < 3; y ++) {
 			for(int x = 0; x < 9; x ++) {
 				int i = 9 + x + y * 9;

@@ -1,3 +1,7 @@
+item.item_gear.name=Iron Gear
+
 tile.block_harvester.name=Automatic Farm Harvester
+
+itemGroup.tab_autofarm=AutofarmCraft
 
 container.harvester=Automatic Farm Harvester

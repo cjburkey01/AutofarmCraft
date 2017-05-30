@@ -1,6 +1,7 @@
 package com.cjburkey.mods.autofarm.block;
 
 import com.cjburkey.mods.autofarm.Autofarm;
+import com.cjburkey.mods.autofarm.dictionary.ModOreDictionary;
 import com.cjburkey.mods.autofarm.tile.TileEntityHarvester;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.ITileEntityProvider;
