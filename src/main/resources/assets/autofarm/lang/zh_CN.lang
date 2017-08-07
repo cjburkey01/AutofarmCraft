@@ -1,0 +1,7 @@
+item.item_gear.name=铁齿轮
+
+tile.block_harvester.name=自动作物收获机
+
+itemGroup.tab_autofarm=自动农场
+
+container.harvester=自动作物收获机
